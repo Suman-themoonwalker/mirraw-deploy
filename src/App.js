@@ -203,28 +203,30 @@ function App() {
     </div>
 </section>
 <section>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://assets0.mirraw.com/images/8756888/IMG_4816_small.jpg?1614442070" alt="First slide"/>
+    <h2>BESTSELLER PRODUCTS</h2>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner"></div>
+    <div class="row">
+        <div class="col">
+            <img src="https://assets0.mirraw.com/images/8756888/IMG_4816_small.jpg?1614442070"/>
+        </div>
+        <div class="col">
+            <img src="https://assets0.mirraw.com/images/7001281/DZ18822_small.jpg?1557223344"/>
+        </div>
+        <div class="col">
+            <img src="https://assets0.mirraw.com/images/7241770/image_small.jpeg?1564324410"/>
+        </div>
+        <div class="col">
+            <img src="https://assets0.mirraw.com/images/2009504/612-Crepe_%281%29_small.jpg?1536651112"/>
+        </div>
+        <div class="col">
+            <img src="https://assets0.mirraw.com/images/7241773/image_small.jpeg?1564324467"/>
+        </div>
+        <div class="col">
+            <img src="https://assets0.mirraw.com/images/7020989/image_small.jpeg?1557736006"/>
+        </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://assets0.mirraw.com/images/7001281/DZ18822_small.jpg?1557223344" alt="Second slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://assets0.mirraw.com/images/7241770/image_small.jpeg?1564324410" alt="Third slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://assets0.mirraw.com/images/2009504/612-Crepe_%281%29_small.jpg?1536651112" alt="Third slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://assets0.mirraw.com/images/7241773/image_small.jpeg?1564324467" alt="Third slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://assets0.mirraw.com/images/7020989/image_small.jpeg?1557736006" alt="Third slide"/>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
@@ -232,9 +234,43 @@ function App() {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+    </div>
+    <h2>RECOMMENDED FOR YOU</h2>
+    <div class="row">
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/7730486/image_small.jpeg?1578740478"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/7892200/image_small.jpeg?1582294276"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/8310136/image_small.jpeg?1600735314"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/8310140/image_small.jpeg?1600735351"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/8310124/image_small.jpeg?1600735202"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/8310128/image_small.jpeg?1600735240"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/8310132/image_small.jpeg?1600735277"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/8309984/image_small.jpeg?1600733964"/>
+        </div>
+        <div class="col">
+            <img src="https://assets1.mirraw.com//images/8310004/image_small.jpeg?1600734143"/>
+        </div>
+    </div>
 </section>
-
+<section>
+  <div>
+    <h2></h2>
+  </div>
+</section>
 
     </div>
 
