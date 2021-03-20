@@ -4,3 +4,167 @@
   top: -40px;
 
 }
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.image img
+{
+  margin-left: 6%;
+}
+.search-container
+{
+  float: right;
+}
+.search-container input{
+  width: 500px;
+  height: 40px;
+  margin-top: 3%;
+}
+.search-container button
+{
+  height: 40px;
+  margin-top:1%;
+}
+.search-container button:hover {
+  background: #8B0000;
+}
+.form-group
+{
+  margin-bottom: 15px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color:snow;
+  background-color: #2F4F4F;
+  padding-right:29px;
+}
+.bottom-left:hover{
+  background-color: red;
+}
+h3{
+  position: relative;
+  text-align: center;
+  padding-bottom: 2%;
+}
+h4,h6{
+  position: relative;
+  text-align: center;
+}
+.zoom {
+  transition: transform .2s;
+  margin-left: 2%;
+}
+.zoom:hover{
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+}
+.history{
+  border-style: groove;
+  width: 90%;
+  margin-left:5%;
+}
+.subscribe-container{
+  margin-left: 28%;
+}
+.subscribe-container input{
+  width: 500px;
+  height: 40px;
+  margin-top: 1%;
+}
+.subscribe-container button:hover {
+  background: #8B0000;
+}
+.col-md-2
+{
+  margin-top:3%;
+}
+.col-md-2.h6{
+  margin-right: 6%;
+}
+a{
+  text-decoration-color: white;
+}
+.thirdLevelImages{
+  margin-bottom: -600px;
+  
+}
+
+.cover{
+  width:95%;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+
+.sarees{
+  height:980px;
+}
+.necklace_sets{
+  position: relative;
+  float:right;
+  margin:0 18px 0 0;
+  width:1000px;
+  height: 300px;
+}
+
+.kidswear{
+  position: relative;
+  bottom: 325px;
+  left: 10px;
+}
+
+.menswear{
+  position: relative;
+  float: left;
+  bottom:325px;
+  left:950px;
+
+}
+
+.earrings{
+  position: relative;
+  bottom:320px;
+  right: 325px;
+
+}
+
+.home_decor{
+  position: relative;
+  bottom: 300px;
+}
+
+.bags{
+  position: relative;
+  bottom: 460px;
+  width: 48.5%;
+
+}
+.roots_of_india{
+  position: relative;
+  left:645px;
+  bottom:610px;
+  width: 48.5%;
+}
+
+.footwear{
+  position: relative;
+  right:650px;
+  bottom:445px;
+}
+.logo{
+  margin-left: 4%;
+}
+.one{
+    border-style: groove;
+    width: 90%;
+  }
+.two{
+  border-style: groove;
+  width: 90%;
+}
