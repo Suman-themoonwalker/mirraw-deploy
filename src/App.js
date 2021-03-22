@@ -3,11 +3,8 @@ import './App.css';
 function App() {
   return (
     <div>
-
-      
-
       <section>
-      <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="">Contact Us</a>
@@ -37,6 +34,8 @@ function App() {
             </li>
           </ul>
         </nav>
+      </section>
+      <section>
         <div class="image"> 
           <img src="data:image/png;base64,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"/>
           <div class="search-container">
@@ -47,44 +46,545 @@ function App() {
           </div>
         </div>
         <hr/>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Sarees</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Lehengas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Salwar Kameez</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Kurties</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Jewellery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Kids</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Men</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Home & Living</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">LUXE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Celebrities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Collections</a>
-            </li>
-          </ul>
-        </nav>
 
+        
+<nav class="navbar navbar-inverse navbar-dark bg-dark">
+  <div class="container-fluid" >
+  <ul class="nav navbar-nav mx-auto">
+    <li id="course" class="dropdown"><a href="">Sarees<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">ROOTS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+          <li><a href="#">Baranasi Silk</a></li>
+            <li><a href="#">Kanchipuram Silk</a></li>
+            <li><a href="#">Bhagalpuri Silk</a></li>
+            <li><a href="#">Mysore Silk</a></li>
+            <li><a href="#">Manipuri Silk</a></li>
+            <li><a href="#">Kota Silk</a></li>
+            <li><a href="#">Bandhani</a></li>
+            <li><a href="#">Nauvari</a></li>
+            <li><a href="#">Patola</a></li>
+            <li><a href="#">Jamdani</a></li>
+            <li><a href="#">Maheshwari</a></li>
+            <li><a href="#">Kerala Kasavu</a></li>
+            <li><a href="#">Bengali</a></li>
+            <li><a href="#">Uppada</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">FABRIC<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Georgette</a></li>
+            <li><a href="#">Art Silk</a></li>
+            <li><a href="#">Cotton</a></li>
+            <li><a href="#">Pure silk</a></li>
+            <li><a href="#">Net</a></li>
+            <li><a href="#">Velvet</a></li>
+            <li><a href="#">Chiffon</a></li>
+            <li><a href="#">Brasso</a></li>
+            <li><a href="#">Chanderi</a></li>
+            <li><a href="#">Organza Sarees</a></li>
+            <li><a href="#">Tussar Silk</a></li>
+            <li><a href="#">Crepe</a></li>
+            <li><a href="#">Bengali</a></li>
+            <li><a href="#">Satin</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">OCCASION<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Party Wear</a></li>
+            <li><a href="#">Wedding</a></li>
+            <li><a href="#">Cotton</a></li>
+            <li><a href="#">Pure silk</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">WORK<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Embriodered</a></li>
+            <li><a href="#">Printed</a></li>
+            <li><a href="#">Heavy Work</a></li>
+            <li><a href="#">Sarees</a></li>
+            <li><a href="#">Handloom Sarees</a></li>
+            <li><a href="#">Hand Woven</a></li>
+            <li><a href="#">Chikankari</a></li>
+            <li><a href="#">Kalamkari</a></li>
+            <li><a href="#">Ikat</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">COLLECTIONS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Exclusive</a></li>
+            <li><a href="#">Bridal Sarees</a></li>
+            <li><a href="#">Pre Stitched</a></li>
+            <li><a href="#">Sarees</a></li>
+            <li><a href="#">Half Sree</a></li>
+            <li><a href="#">Traditional Sarees</a></li>
+            <li><a href="#">South Indian Sarees</a></li>
+            <li><a href="#">Bollywood Sarees</a></li>
+            <li><a href="#">Best Sarees</a></li>
+            <li><a href="#">New Arrivals</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">MORE<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Blouses</a></li>
+            <li><a href="#">Readymade Blouse</a></li>
+            <li><a href="#">Blouse Fabric</a></li>
+            <li><a href="#">Sleeveless Blouse</a></li>
+            <li><a href="#">Bridal Blouses</a></li>
+            <li><a href="#">Petticoats</a></li>
+            <li><a href="#">Blouse Neck</a></li>
+            <li><a href="#">Designs</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+    <li id="course" class="dropdown"><a href="">Lehengas<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">FABRIC<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Net</a></li>
+            <li><a href="#">Silk</a></li>
+            <li><a href="#">Georgette</a></li>
+            <li><a href="#">Velvet</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">OCCASION<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Party Wear</a></li>
+            <li><a href="#">Bridal</a></li>
+            <li><a href="#">Casual</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">STYLE<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Ghagra Choli</a></li>
+            <li><a href="#">Lehenga Choli</a></li>
+            <li><a href="#">Crop Top</a></li>
+            <li><a href="#">Readymade</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">COLLECTION<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Ethnic</a></li>
+            <li><a href="#">Pakisthani</a></li>
+            <li><a href="#">Lehenga Saree</a></li>
+            <li><a href="#">Floral</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+    
+    <li id="course" class="dropdown"><a href="">Salwar Kameez<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">STYLE<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Anarkali Suits</a></li>
+            <li><a href="#">Straight Suits</a></li>
+            <li><a href="#">Churidar Suits</a></li>
+            <li><a href="#">Punjabi Suits</a></li>
+            <li><a href="#">Dress Material</a></li>
+            <li><a href="#">Abaya Suits</a></li>
+            <li><a href="#">Pakisthani Suits</a></li>
+            <li><a href="#">Palazzo Suits</a></li>
+            <li><a href="#">Sharara Suits</a></li>
+            <li><a href="#">Patiala Suits</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">FABRIC<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Cotton</a></li>
+            <li><a href="#">Georgette</a></li>
+            <li><a href="#">Chanderi</a></li>
+            <li><a href="#">Silk</a></li>
+            <li><a href="#">Net</a></li>
+            <li><a href="#">Crepe</a></li>
+            <li><a href="#">Cotton Silk</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">OCCASION<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Party Wear</a></li>
+            <li><a href="#">Wedding Salwar</a></li>
+            <li><a href="#">Festive</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">COLLECTION<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Combo Salwar</a></li>
+            <li><a href="#">Ready to Ship</a></li>
+            <li><a href="#">Collar Neck</a></li>
+            <li><a href="#">Designs</a></li>
+            <li><a href="#">Ethnic Suits</a></li>
+            <li><a href="#">Bollywood</a></li>
+            <li><a href="#">Salwars</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">STITCHING<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Readymade Suits</a></li>
+            <li><a href="#">Semi Stitched</a></li>
+            <li><a href="#">Suits</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+
+    <li id="course" class="dropdown"><a href="">Kurtis<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">FABRIC<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Silk</a></li>
+            <li><a href="#">Chiffon</a></li>
+            <li><a href="#">Georgette</a></li>
+            <li><a href="#">Cotton</a></li>
+            <li><a href="#">Rayon</a></li>
+            <li><a href="#">Crepe</a></li>
+            <li><a href="#">Chanderi</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">OCCASION<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Party Wear</a></li>
+            <li><a href="#">Festive</a></li>
+            <li><a href="#">Casual</a></li>
+            <li><a href="#">Wedding</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">WORK<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Printed</a></li>
+            <li><a href="#">Embriodered</a></li>
+            <li><a href="#">Plain</a></li>
+            <li><a href="#">Chikankari</a></li>
+            <li><a href="#">Stone Work</a></li>
+            <li><a href="#">Heavy Work</a></li>
+            <li><a href="#">Mirror Work</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">STYLE<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Long</a></li>
+            <li><a href="#">Traditional</a></li>
+            <li><a href="#">Short</a></li>
+            <li><a href="#">Contemporary</a></li>
+            <li><a href="#">Kaftans</a></li>
+            <li><a href="#">Kurta Sets</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">BOTTOM WEAR<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Palazzos</a></li>
+            <li><a href="#">Harem Pants</a></li>
+            <li><a href="#">Leggings</a></li>
+            <li><a href="#">Patiala Pants</a></li>
+            <li><a href="#">Skirts</a></li>
+            <li><a href="#">Leggings Combo</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>  
+
+    <li id="course" class="dropdown"><a href="">Jewellery<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">TYPE<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Necklace sets</a></li>
+            <li><a href="#">Necklaces</a></li>
+            <li><a href="#">Bangles and Bracelets</a></li>
+            <li><a href="#">Earrings</a></li>
+            <li><a href="#">Anklets</a></li>
+            <li><a href="#">Pendants</a></li>
+            <li><a href="#">Silk Thread</a></li>
+            <li><a href="#">Jewellery</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">WORK<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Template Jewellery</a></li>
+            <li><a href="#">Antique Jewellery</a></li>
+            <li><a href="#">Kundan Jewellery</a></li>
+            <li><a href="#">South Indian Jewellery</a></li>
+            <li><a href="#">Pearl Jewellery</a></li>
+            <li><a href="#">Handmade Jewellery</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">WEDDING<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Bridal Jewellery</a></li>
+            <li><a href="#">Bridal sets</a></li>
+            <li><a href="#">Mangalsutra</a></li>
+            <li><a href="#">Maang Tika</a></li>
+            <li><a href="#">Rings</a></li>
+            <li><a href="#">Toe Rings</a></li>
+            <li><a href="#">Nose Rings</a></li>
+            <li><a href="#">Baju Band</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">FEATURED<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Silk Thread</a></li>
+            <li><a href="#">Earrings</a></li>
+            <li><a href="#">Brooch Silk Thread</a></li>
+            <li><a href="#">Bangles</a></li>
+            <li><a href="#">Studs</a></li>
+            <li><a href="#">Jhumkas</a></li>
+            <li><a href="#">Choker Necklace</a></li>
+            <li><a href="#">Danglers & Drops</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">COLLECTIONS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Gemstones</a></li>
+            <li><a href="#">Ear Cuffs</a></li>
+            <li><a href="#">Designer</a></li>
+            <li><a href="#">Jewellery</a></li>
+            <li><a href="#">Hair Accessories</a></li>
+            <li><a href="#">Oxidised</a></li>
+            <li><a href="#">Jewellery</a></li>
+            <li><a href="#">Jewellery Box</a></li>
+            <li><a href="#">Ethnic Jewellery</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+    <li id="course" class="dropdown"><a href="">Kids<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">GIRLS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Lehange</a></li>
+            <li><a href="#">Salwar Suits</a></li>
+            <li><a href="#">Gowns</a></li>
+            <li><a href="#">Sarees</a></li>
+            <li><a href="#">Frocks</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Girl Jackets</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">BOYS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Kurta Pyjamas</a></li>
+            <li><a href="#">Indo Western</a></li>
+            <li><a href="#">Sherwani</a></li>
+            <li><a href="#">Dhoti Kurta</a></li>
+            <li><a href="#">Nehru Jacket</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">COLLECTIONS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Jewellery</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+
+
+    <li id="course" class="dropdown"><a href="">Men<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">CLOTHING<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Kurta Pyjama</a></li>
+            <li><a href="#">Dhoti Kurta</a></li>
+            <li><a href="#">Nehru Jacket</a></li>
+            <li><a href="#">Kurtas</a></li>
+            <li><a href="#">Blazers</a></li>
+            <li><a href="#">Sherwani</a></li>
+            <li><a href="#">Pathani Suits</a></li>
+            <li><a href="#">Bandhgala</a></li>
+            <li><a href="#">Dhoti</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">JEWELLERY<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Earrings</a></li>
+            <li><a href="#">Studs</a></li>
+            <li><a href="#">Bracelets</a></li>
+            <li><a href="#">Pendants</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">ACCESSORIES<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Turbans</a></li>
+            <li><a href="#">Cufflinks</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">FOOTWEAR<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Casual</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+
+    <li id="course" class="dropdown"><a href="">Home & Living<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">BEDDING<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Bed Sheets</a></li>
+            <li><a href="#">Quilts</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">FURNISHING<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Curtains</a></li>
+            <li><a href="#">Cushion Covers</a></li>
+            <li><a href="#">Carpets</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">DECOR<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Idols & Figuriness</a></li>
+            <li><a href="#">Vases</a></li>
+            <li><a href="#">Candles & Aromas</a></li>
+            <li><a href="#">Diyas</a></li>
+            <li><a href="#">Door Hangings</a></li>
+            <li><a href="#">Pooja Items</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">WALL ACCENTS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Painters</a></li>
+            <li><a href="#">Wall Clocks</a></li>
+            <li><a href="#">Wall Art</a></li>
+            <li><a href="#">Photo Frames</a></li>
+            <li><a href="#">Decorative Plates</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">KITCHEN & DINING<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Cookware</a></li>
+            <li><a href="#">Utensils</a></li>
+            <li><a href="#">Table Mats & Runner</a></li>
+            <li><a href="#">Coasters</a></li>
+            <li><a href="#">Trays</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+
+
+    <li id="course" class="dropdown"><a href="">LUXE<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">WOMENSWEAR<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Kurtis</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Sarees</a></li>
+            <li><a href="#">Salwar Suits</a></li>
+            <li><a href="#">Tops</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">BRANDS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Ritu Kumar</a></li>
+            <li><a href="#">Payal Singhal</a></li>
+            <li><a href="#">August Line</a></li>
+            <li><a href="#">Sole House</a></li>
+            <li><a href="#">Anju & Harleen</a></li>
+            <li><a href="#">Mayank Modi</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">OTHERS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Footwear</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+
+
+    <li id="course" class="dropdown"><a href="">CELEBRITIES<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">WOMENSWEAR<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Anu Mishra</a></li>
+            <li><a href="#">Richa Shahii</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+
+
+    <li id="course" class="dropdown"><a href="">COLLECTIONS<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li id="sub-dropdown" class="dropdown"><a href="#">ROOTS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Sarees</a></li>
+            <li><a href="#">Kurtas & Suits</a></li>
+            <li><a href="#">Dress Material</a></li>
+            <li><a href="#">Blouses</a></li>
+            <li><a href="#">Dupattas</a></li>
+            <li><a href="#">Bottoms</a></li>
+            <li><a href="#">Jewellery</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">WESTERN WEAR<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Tops</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Tunics</a></li>
+            <li><a href="#">Gowns</a></li>
+            <li><a href="#">Indowestern</a></li>
+            <li><a href="#">Palazzos</a></li>
+            <li><a href="#">Leggings</a></li>
+            <li><a href="#">Skirts</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">ACCESSORIES<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Stoles and Dupattas</a></li>
+            <li><a href="#">Shawls</a></li>
+            <li><a href="#">Bags</a></li>
+            <li><a href="#">Footwear</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">BEAUTY<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Makeup</a></li>
+            <li><a href="#">Face Care</a></li>
+            <li><a href="#">Hair Care </a></li>
+            <li><a href="#">Body Care</a></li>
+            <li><a href="#">Female Hygiene</a></li>
+            <li><a href="#">Personal Hygiene</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">FOOD<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Packaged Food</a></li>
+            <li><a href="#">Beverages</a></li>
+            <li><a href="#">Baby Food</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">ISLAMIC<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Abaya</a></li>
+            <li><a href="#">Hijab</a></li>
+            <li><a href="#">Burka</a></li>
+            <li><a href="#">Tunics</a></li>
+            <li><a href="#">Kaftans</a></li>
+            <li><a href="#">Kids Abaya</a></li>
+          </ul>
+        </li>
+        <li id="sub-dropdown" class="dropdown"><a href="#">COMBOS<span class="glyphicon glyphicon-chevron-right"></span></a>
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
+            <li><a href="#">Sarees</a></li>
+            <li><a href="#">Dress Material</a></li>
+            <li><a href="#">Kurtis</a></li>
+            <li><a href="#">Jewellery</a></li>
+            <li><a href="#">Leggings</a></li>
+            <li><a href="#">Patiala Pants</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+
+
+    </ul>
+    </div>
+  </nav>
 
       </section>
 
@@ -113,73 +613,47 @@ function App() {
 </section>
 
 <section>
-        <div class="row">
-          <div class="col-3">
-            <img src="https://i.postimg.cc/gjXBkWwQ/sarees.jpg" class="sarees" />
-          </div>
-
-          <div class="col-9">
-            <div class="row" >
-            <img src="https://i.postimg.cc/rw67sKNJ/cover.jpg" class="cover" />
-
-            </div>
-
-            <div class="row">
-            <img src="https://i.postimg.cc/SsKv38my/kurta-sets.jpg" />
-            <img src="https://i.postimg.cc/k4M0CzvP/anarkali-suits.jpg" />
-             
-            </div>
-           
-           
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div>
-          <img src="https://i.postimg.cc/Y2vpmLQK/lehenga.png" class="lehenga" />
-          <img src="https://i.postimg.cc/26XKD65n/necklace-sets.jpg" class="necklace_sets" />
-          <img src="https://i.postimg.cc/TY5ZTrg1/kidsw-ear.jpg" class="kidswear" />
-          <img src="https://i.postimg.cc/8CN3d93f/mensw-ear.jpg" class="menswear" />
-          <img src="https://i.postimg.cc/WzCCM3Ls/earrings.jpg" class="earrings" />
-
-        </div>
-
-      </section>
-
-      <section>
-        <div class="thirdLevelImages">
-          <img src="https://i.postimg.cc/pdCSskbG/home-decor.jpg" class="home_decor" />
-          <img src="https://i.postimg.cc/4ymj7c08/bags.jpg" class="bags" />
-          <img src="https://i.postimg.cc/tJKvsMWT/roots-of-india.jpg" class="roots_of_india" />
-          <img src="https://i.postimg.cc/XYwmC420/footwear.jpg" class="footwear" />
-
+        <div class="row allLevelImages">
+        <a href="#"><img src="https://i.postimg.cc/gjXBkWwQ/sarees.jpg" class="sarees" /></a>
+        <a href="#"><img src="https://i.postimg.cc/rw67sKNJ/cover.jpg" class="cover" /></a>
+        <a href="#"><img src="https://i.postimg.cc/SsKv38my/kurta-sets.jpg" class="kurta" /></a>
+        <a href="#"><img src="https://i.postimg.cc/k4M0CzvP/anarkali-suits.jpg" class="anarkali"/></a>
+        <a href="#"><img src="https://i.postimg.cc/Y2vpmLQK/lehenga.png" class="lehenga" /></a>
+        <a href="#"><img src="https://i.postimg.cc/26XKD65n/necklace-sets.jpg" class="necklace_sets" /></a>
+        <a href=""><img src="https://i.postimg.cc/TY5ZTrg1/kidsw-ear.jpg" class="kidswear" /></a>
+        <a href="#"><img src="https://i.postimg.cc/8CN3d93f/mensw-ear.jpg" class="menswear" /></a>
+        <a href="#"><img src="https://i.postimg.cc/WzCCM3Ls/earrings.jpg" class="earrings" /></a>
+        <a href="#"><img src="https://i.postimg.cc/pdCSskbG/home-decor.jpg" class="home_decor" /></a>
+        <a href="#"><img src="https://i.postimg.cc/4ymj7c08/bags.jpg" class="bags" /></a>
+        <a href="#"><img src="https://i.postimg.cc/tJKvsMWT/roots-of-india.jpg" class="roots_of_india" /></a>
+        <a href="#"><img src="https://i.postimg.cc/XYwmC420/footwear.jpg" class="footwear" /></a>
         </div>
       </section>
 
 
 <section>
     <hr/>
+    <div class="types">
     <div class="row mt-3">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9222/Christmast_%28layout_down%29-01_main.jpg?1608803378"/>
             <div class="bottom-left">Banarasi Silk</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9223/Christmast_%28layout_down%29-02_main.jpg?1608803384"/>
             <div class="bottom-left">Bandhani</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9224/Christmast_%28layout_down%29-03_main.jpg?1608803387"/>
             <div class="bottom-left">Kanchipuram Silks</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9225/Christmast_%28layout_down%29-04_main.jpg?1608803393"/>
             <div class="bottom-left">Handloom Sarees</div>
@@ -187,25 +661,25 @@ function App() {
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9226/Christmast_%28layout_down%29-05_main.jpg?1608803787"/>
             <div class="bottom-left">Earrings</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9227/Christmast_%28layout_down%29-06_main.jpg?1608803794"/>
             <div class="bottom-left">Necklace Sets</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9228/Christmast_%28layout_down%29-07_main.jpg?1608803796"/>
             <div class="bottom-left">Bangles</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9229/Christmast_%28layout_down%29-08_main.jpg?1608803803"/>
             <div class="bottom-left">Maang Tikka</div>
@@ -213,25 +687,25 @@ function App() {
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9230/Christmast_%28layout_down%29-09_main.jpg?1608804204"/>
             <div class="bottom-left">Roots of India</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9231/Christmast_%28layout_down%29-10_main.jpg?1608804212"/>
             <div class="bottom-left">Palazzo Suits</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9232/Christmast_%28layout_down%29-11_main.jpg?1608804220"/>
             <div class="bottom-left">Straight Suits</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9233/Christmast_%28layout_down%29-12_main.jpg?1608804225"/>
             <div class="bottom-left">Beauty Essentials</div>
@@ -239,25 +713,25 @@ function App() {
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9234/Christmast_%28layout_down%29-13_main.jpg?1608804494"/>
             <div class="bottom-left">Bags</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9235/Christmast_%28layout_down%29-14_main.jpg?1608804500"/>
             <div class="bottom-left">Footwear</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9236/Christmast_%28layout_down%29-15_main.jpg?1608804503"/>
             <div class="bottom-left">Stoles & Dupattas</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9237/Christmast_%28layout_down%29-16_main_webp.webp?1608804509"/>
             <div class="bottom-left">Westernwear</div>
@@ -265,25 +739,25 @@ function App() {
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9357/Christmast_%28layout_down%29-17_main_webp.webp?1608805778"/>
             <div class="bottom-left">Libas</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9358/Christmast_%28layout_down%29-18_main_webp.webp?1608805785"/>
             <div class="bottom-left">Shaily</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9359/Christmast_%28layout_down%29-19_main_webp.webp?1608805785"/>
             <div class="bottom-left">Jaipur Kurti</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9360/Christmast_%28layout_down%29-20_main_webp.webp?1608805792"/>
             <div class="bottom-left">Junipers</div>
@@ -291,31 +765,32 @@ function App() {
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9361/Christmast_%28layout_down%29-21_main_webp.webp?1608805798"/>
             <div class="bottom-left">Classicate From The House of Chennai</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9362/Christmast_%28layout_down%29-22_main_webp.webp?1608805799"/>
             <div class="bottom-left">Ritu Kumar</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href='#'>
             <img src="https://assets0.mirraw.com/frontpages/9363/Christmast_%28layout_down%29-23_main_webp.webp?1608805806"/>
             <div class="bottom-left">Rina Dhaka</div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <a href = '#'>
             <img src="https://assets0.mirraw.com/frontpages/9364/Christmast_%28layout_down%29-24_main_webp.webp?1608805806"/>
             <div class="bottom-left">Payal Singhal</div>
           </a>
         </div>
     </div>
+  </div>
 </section>
 
 
@@ -336,7 +811,7 @@ function App() {
 
 <section>
 <h3>RECOMMENDED FOR YOU</h3>
-  <div class="container">
+  <div class="zoom container">
     <div class="row">
       <div class="col-md-12">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
@@ -554,7 +1029,8 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
       <p>Copyright&copy;2021, Mirraw Online Services Pvt. Ltd. All Rights Reserved.</p>
     </div>
 </footer>
- </div>
+
+         </div>
   );
 }
 
