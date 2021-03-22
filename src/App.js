@@ -123,6 +123,9 @@ function App() {
             <li><a href="#">Best Sarees</a></li>
             <li><a href="#">New Arrivals</a></li>
           </ul>
+    
+
+    
         </li>
         <li id="sub-dropdown" class="dropdown"><a href="#">MORE<span class="glyphicon glyphicon-chevron-right"></span></a>
           <ul id="sub-dropdown-menu" class="dropdown-menu">
