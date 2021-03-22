@@ -2,7 +2,7 @@
   "name": "mirraw-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Suman-themoonwalker.github.io/new-mirraw",
+  "homepage": "https://Suman-themoonwalker.github.io/deploy-mirraw",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
