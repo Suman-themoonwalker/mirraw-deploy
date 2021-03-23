@@ -4,6 +4,7 @@ function App() {
   return (
     <div>
       <section>
+    <h1>Hell</h1>
         <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
