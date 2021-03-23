@@ -3,57 +3,42 @@ import './App.css';
 function App() {
   return (
     <div>
-      <section>
-    <h1>Hell</h1>
-        <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">7 Day Returns</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Track Order</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Return Order</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Sell On Mirraw</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Survey</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href=""><i class="fas fa-user-tie"></i><b> LOG IN</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href=""><i class="fas fa-shopping-bag"></i> <b> CART(0)</b></a>
-            </li>
-          </ul>
+      <div class="nav-header">
+      <nav>
+        <input type="checkbox" id="check"/>
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="#">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
+          <li><a href="#">7 Day Returns&nbsp;&nbsp;&nbsp;</a></li>
+          <li><a href="#">Track Order&nbsp;&nbsp;&nbsp;</a></li>
+          <li><a href="#">Return Order&nbsp;&nbsp;&nbsp;</a></li>
+          <li><a href="#">Sell On Mirraw&nbsp;&nbsp;&nbsp;</a></li>
+          <li><a href="#">Survey&nbsp;&nbsp;&nbsp;</a></li>
+          <li class="right-side"><a href=""><i class="fas fa-user-tie"></i><b> LOG IN</b>&nbsp;&nbsp;</a><a href="">&nbsp;&nbsp;<i class="fas fa-shopping-bag"></i> <b>&nbsp;CART(0)</b>&nbsp;&nbsp;</a></li>
+        </ul>
         </nav>
-      </section>
-      <section>
-        <div class="image"> 
-          <img src="data:image/png;base64,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"/>
-          <div class="search-container">
+        <hr/>
+        <label class="logo"><a href="#"><img src="data:image/png;base64,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"/></a></label>
+        <div class="search-container">
             <form class="form-line">
               <input type="text" placeholder="Search for something!!!!" />
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <button type="submit" ><i class="fa fa-search"></i></button>
             </form>
           </div>
-        </div>
-        <hr/>
+        <hr/>      
+      </div>
 
-        
-<nav class="navbar navbar-inverse navbar-dark bg-dark">
-  <div class="container-fluid" >
-  <ul class="nav navbar-nav mx-auto">
-    <li id="course" class="dropdown"><a href="">Sarees<span class="caret"></span></a>
-    <ul class="dropdown-menu">
+
+
+
+  <section>  
+    < nav class="navbar navbar-inverse navbar-dark bg-light">
+    <div class="container-fluid" >
+    <ul class="nav navbar-nav mx-auto">
+      <li id="course" class="dropdown"><a href="">Sarees<span class="caret"></span></a>
+      <ul class="dropdown-menu">
         <li id="sub-dropdown" class="dropdown"><a href="#">ROOTS<span class="glyphicon glyphicon-chevron-right"></span></a>
           <ul id="sub-dropdown-menu" class="dropdown-menu">
           <li><a href="#">Baranasi Silk</a></li>
@@ -636,164 +621,209 @@ function App() {
 
 
 <section>
-    <hr/>
-    <div class="types">
-    <div class="row mt-3">
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9222/Christmast_%28layout_down%29-01_main.jpg?1608803378"/>
-            <div class="bottom-left">Banarasi Silk</div>
-          </a>
+  <hr/>
+  <div class="silks">
+
+    <div class="row mt-3" id="first">
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9222/Christmast_%28layout_down%29-01_main.jpg?1608803378"/></a>
+              <a href="#"><div class="card-footer">Banarasi Silk</div></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9223/Christmast_%28layout_down%29-02_main.jpg?1608803384"/>
-            <div class="bottom-left">Bandhani</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9224/Christmast_%28layout_down%29-03_main.jpg?1608803387"/>
-            <div class="bottom-left">Kanchipuram Silks</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9225/Christmast_%28layout_down%29-04_main.jpg?1608803393"/>
-            <div class="bottom-left">Handloom Sarees</div>
-          </a>
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9226/Christmast_%28layout_down%29-05_main.jpg?1608803787"/>
-            <div class="bottom-left">Earrings</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9227/Christmast_%28layout_down%29-06_main.jpg?1608803794"/>
-            <div class="bottom-left">Necklace Sets</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9228/Christmast_%28layout_down%29-07_main.jpg?1608803796"/>
-            <div class="bottom-left">Bangles</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9229/Christmast_%28layout_down%29-08_main.jpg?1608803803"/>
-            <div class="bottom-left">Maang Tikka</div>
-          </a>
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9223/Christmast_%28layout_down%29-02_main.jpg?1608803384"/></a>
+              <a href="#"><div class="card-footer">Bandhani</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9224/Christmast_%28layout_down%29-03_main.jpg?1608803387"/></a>
+              <a href="#"><div class="card-footer">Kanchipuram Silk</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9225/Christmast_%28layout_down%29-04_main.jpg?1608803393"/></a>
+              <a href="#"><div class="card-footer">Handloom Sarees</div></a>
+            </div>
+          </div>
         </div>
     </div>
-    <div class="row mt-3">
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9230/Christmast_%28layout_down%29-09_main.jpg?1608804204"/>
-            <div class="bottom-left">Roots of India</div>
-          </a>
+
+    <div class="row mt-3" id="second">
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9226/Christmast_%28layout_down%29-05_main.jpg?1608803787"/></a>
+              <a href="#"><div class="card-footer">Earrings</div></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9231/Christmast_%28layout_down%29-10_main.jpg?1608804212"/>
-            <div class="bottom-left">Palazzo Suits</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9232/Christmast_%28layout_down%29-11_main.jpg?1608804220"/>
-            <div class="bottom-left">Straight Suits</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9233/Christmast_%28layout_down%29-12_main.jpg?1608804225"/>
-            <div class="bottom-left">Beauty Essentials</div>
-          </a>
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9234/Christmast_%28layout_down%29-13_main.jpg?1608804494"/>
-            <div class="bottom-left">Bags</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9235/Christmast_%28layout_down%29-14_main.jpg?1608804500"/>
-            <div class="bottom-left">Footwear</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9236/Christmast_%28layout_down%29-15_main.jpg?1608804503"/>
-            <div class="bottom-left">Stoles & Dupattas</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9237/Christmast_%28layout_down%29-16_main_webp.webp?1608804509"/>
-            <div class="bottom-left">Westernwear</div>
-          </a>
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9227/Christmast_%28layout_down%29-06_main.jpg?1608803794"/></a>
+              <a href="#"><div class="card-footer">Necklace Sets</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9228/Christmast_%28layout_down%29-07_main.jpg?1608803796"/></a>
+              <a href="#"><div class="card-footer">Bangles</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9229/Christmast_%28layout_down%29-08_main.jpg?1608803803"/></a>
+              <a href="#"><div class="card-footer">Maang Tikka</div></a>
+            </div>
+          </div>
         </div>
     </div>
-    <div class="row mt-3">
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9357/Christmast_%28layout_down%29-17_main_webp.webp?1608805778"/>
-            <div class="bottom-left">Libas</div>
-          </a>
+
+    <div class="row mt-3" id="three">
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9230/Christmast_%28layout_down%29-09_main.jpg?1608804204"/></a>
+              <a href="#"><div class="card-footer">Roots Of India</div></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9358/Christmast_%28layout_down%29-18_main_webp.webp?1608805785"/>
-            <div class="bottom-left">Shaily</div>
-          </a>
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9231/Christmast_%28layout_down%29-10_main.jpg?1608804212"/></a>
+              <a href="#"><div class="card-footer">Palazzo Silks</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9232/Christmast_%28layout_down%29-11_main.jpg?1608804220"/></a>
+              <a href="#"><div class="card-footer">Straight Suits</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9233/Christmast_%28layout_down%29-12_main.jpg?1608804225"/></a>
+              <a href="#"><div class="card-footer">Beauty Essentials</div></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9359/Christmast_%28layout_down%29-19_main_webp.webp?1608805785"/>
-            <div class="bottom-left">Jaipur Kurti</div>
-          </a>
+    </div>    
+
+
+    <div class="row mt-3" id="four">
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9234/Christmast_%28layout_down%29-13_main.jpg?1608804494"/></a>
+              <a href="#"><div class="card-footer">Bags</div></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9360/Christmast_%28layout_down%29-20_main_webp.webp?1608805792"/>
-            <div class="bottom-left">Junipers</div>
-          </a>
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9235/Christmast_%28layout_down%29-14_main.jpg?1608804500"/></a>
+              <a href="#"><div class="card-footer">Footwear</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9236/Christmast_%28layout_down%29-15_main.jpg?1608804503"/></a>
+              <a href="#"><div class="card-footer">Stoles and Dupattas</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9237/Christmast_%28layout_down%29-16_main_webp.webp?1608804509"/></a>
+              <a href="#"><div class="card-footer">Westernwear</div></a>
+            </div>
+          </div>
         </div>
     </div>
-    <div class="row mt-3">
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9361/Christmast_%28layout_down%29-21_main_webp.webp?1608805798"/>
-            <div class="bottom-left">Classicate From The House of Chennai</div>
-          </a>
+
+    <div class="row mt-3" id="fifth">
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9357/Christmast_%28layout_down%29-17_main_webp.webp?1608805778"/></a>
+              <a href="#"><div class="card-footer">Libas</div></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9362/Christmast_%28layout_down%29-22_main_webp.webp?1608805799"/>
-            <div class="bottom-left">Ritu Kumar</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href='#'>
-            <img src="https://assets0.mirraw.com/frontpages/9363/Christmast_%28layout_down%29-23_main_webp.webp?1608805806"/>
-            <div class="bottom-left">Rina Dhaka</div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-          <a href = '#'>
-            <img src="https://assets0.mirraw.com/frontpages/9364/Christmast_%28layout_down%29-24_main_webp.webp?1608805806"/>
-            <div class="bottom-left">Payal Singhal</div>
-          </a>
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9358/Christmast_%28layout_down%29-18_main_webp.webp?1608805785"/></a>
+              <a href="#"><div class="card-footer">Shaily</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9359/Christmast_%28layout_down%29-19_main_webp.webp?1608805785"/></a>
+              <a href="#"><div class="card-footer">Jaipur Kurti</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9360/Christmast_%28layout_down%29-20_main_webp.webp?1608805792"/></a>
+              <a href="#"><div class="card-footer">Juniper</div></a>
+            </div>
+          </div>
         </div>
     </div>
+
+    <div class="row mt-3" id="sixth">
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9361/Christmast_%28layout_down%29-21_main_webp.webp?1608805798"/></a>
+              <a href="#"><div class="card-footer">Classicate From The House Of Chennai</div></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9362/Christmast_%28layout_down%29-22_main_webp.webp?1608805799"/></a>
+              <a href="#"><div class="card-footer">Ritu Kumar</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9363/Christmast_%28layout_down%29-23_main_webp.webp?1608805806"/></a>
+              <a href="#"><div class="card-footer">Rina Dhika</div></a>
+            </div>
+          </div>
+        </div><div class="col-md-3 col-sm-12">
+          <div class="card">
+            <div class="card-block">
+              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9364/Christmast_%28layout_down%29-24_main_webp.webp?1608805806"/></a>
+              <a href="#"><div class="card-footer">Payal Singhal</div></a>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
   </div>
 </section>
 
@@ -802,12 +832,22 @@ function App() {
 <section>
   <hr/>
   <h3>BESTSELLER PRODUCTS</h3>
-  <div class="row">
+  <div class="stationary-zoomer">
+  <div class="card"><div class="card-block">
   <div class="zoom"><a href='#'><img src="https://assets0.mirraw.com/images/8756888/IMG_4816_small.jpg?1614442070"/></a></div>
+  </div></div>
+  <div class="card"><div class="card-block">
   <div class="zoom"><a href='#'><img src="https://assets0.mirraw.com/images/7020989/image_small.jpeg?1557736006"/></a></div>
+  </div></div>
+  <div class="card"><div class="card-block">
   <div class="zoom"><a href='#'><img src="https://assets0.mirraw.com/images/7241770/image_small.jpeg?1564324410"/></a></div>
+  </div></div>
+  <div class="card"><div class="card-block">
   <div class="zoom"><a href='#'><img src="https://assets0.mirraw.com/images/2009504/612-Crepe_%281%29_small.jpg?1536651112"/></a></div>
+  </div></div>
+  <div class="card"><div class="card-block">
   <div class="zoom"><a href='#'><img src="https://assets0.mirraw.com/images/7241773/image_small.jpeg?1564324467"/></a></div>
+  </div></div>
   </div>
   <hr/>
 </section>
@@ -828,7 +868,7 @@ function App() {
         <div class="row">
           <div class="col-md-3">
             <div class="single-box">
-              <div class="img-area"><img src="https://assets1.mirraw.com//images/2028195/6_small.jpg?1458730479"/></div>
+              <div class="img-area"><img class="zoom" src="https://assets1.mirraw.com//images/2028195/6_small.jpg?1458730479"/></div>
               <div class="img-text">
               </div>
             </div>
@@ -947,12 +987,14 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
   </ol>
   <div class="carousel-inner">
     <div class="one carousel-item active">
-      <div><p>Mirraw was superfast. I ordered on 26th Dec and today (28th Dec) I got the product. I also got a call yesterday by the Gharpay executive before coming for the pick up, as committed by Team Mirraw. I Ordered Victorian Double Tokri Kashmiri Earring. The design and specially the color of the stones which I was specific to be the same as mentioned in the website was perfectly the same. Moreover, It looks amazingly beautiful with my Royal Blue and Pink Benarasi Saree. Very happy with the service. Keep it up Mirraw ! All the Best ! -</p>
-      <h5>Suranjeeta Das, New Delhi </h5></div>
+    <div><p>Mirraw was superfast. I ordered on 26th Dec and today (28th Dec) I got the product. I also got a call yesterday by the Gharpay executive before coming for the pick up, as committed by Team Mirraw. I Ordered Victorian Double Tokri Kashmiri Earring. The design and specially the color of the stones which I was specific to be the same as mentioned in the website was perfectly the same. Moreover, It looks amazingly beautiful with my Royal Blue and Pink Benarasi Saree. Very happy with the service. Keep it up Mirraw ! All the Best ! -</p>
+      <h5>Suranjeeta Das, New Delhi </h5>
+    </div>
     </div>
     <div class="two carousel-item">
-      <div><p>I'd like to take this opportunity to let you know that I am very happy with your customer service. I had an issue with a damaged piece and it was dealt with efficiently. I received the temple set and others in my order and I am extremely happy with your professionalism. All items were very well made and worth the money. Keep up the good work. - </p>
-      <h5>Anjana Das, Tennessee, United States </h5></div>
+    <div><p>I'd like to take this opportunity to let you know that I am very happy with your customer service. I had an issue with a damaged piece and it was dealt with efficiently. I received the temple set and others in my order and I am extremely happy with your professionalism. All items were very well made and worth the money. Keep up the good work. - </p>
+      <h5>Anjana Das, Tennessee, United States </h5>
+    </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
