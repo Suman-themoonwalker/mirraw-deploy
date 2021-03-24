@@ -116,9 +116,12 @@ hr {
 .card-block a:link{
   text-decoration: none;
 }
+.card-block img{
+  margin-left: .5rem;
+}
 .card-footer{
-  color: black;
-  background: greenyellow;
+  color: snow;
+  background: black;
 }
 .card-footer:hover{
   background-color: red;
@@ -175,9 +178,46 @@ a{
   position: relative;
   margin-bottom: 180rem;
 }
-
- 
-
+/*making cards invisible*/
+.card .card-block .m_sarees{
+  display: none;
+}
+.card .card-block .m_cover{
+  display: none;
+}
+.card .card-block .m_kurta{
+  display: none;
+}
+.card .card-block .m_anarkali{
+  display: none;
+}
+.card .card-block .m_kidswear{
+  display: none;
+}
+.card .card-block .m_menswear{
+  display: none;
+}
+.card .card-block .m_lehenga{
+  display: none;
+}
+.card .card-block .m_roots_of_india{
+  display: none;
+}
+.card .card-block .m_bags{
+  display: none;
+}
+.card .card-block .m_footwear{
+  display: none;
+}
+.card .card-block .m_home_decor{
+  display: none;
+}
+.card .card-block .m_earrings{
+  display: none;
+}
+.card .card-block .m_necklace_sets{
+  display: none;
+}
 .types{
   margin-top: auto;
 }
@@ -349,109 +389,92 @@ width: 90%;
   #check:checked ~ .nav-header ul{
     left: 0;
   }
+  /*Makings Cards Visible*/
+  .card .card-block .m_sarees{
+    display: block;
+  }
+  .card .card-block .m_cover{
+    display: block;
+  }
+  .card .card-block .m_kurta{
+    display: block;
+  }
+  .card .card-block .m_anarkali{
+    display: block;
+  }
+  .card .card-block .m_kidswear{
+    display: block;
+  }
+  .card .card-block .m_menswear{
+    display: block;
+  }
+  .card .card-block .m_lehenga{
+    display: block;
+  }
+  .card .card-block .m_roots_of_india{
+    display: block;
+  }
+  .card .card-block .m_bags{
+    display: block;
+  }
+  .card .card-block .m_footwear{
+    display: block;
+  }
+  .card .card-block .m_home_decor{
+    display: block;
+  }
+  .card .card-block .m_earrings{
+    display: block;
+  }
+  .card .card-block .m_necklace_sets{
+    display: block;
+  }
+  
+  /*Making grids invisible*/
   .allLevelImages{
     position: relative;
-    margin-bottom: 325rem;
+    margin-bottom: 0rem;
   }
 
   .sarees{
-    position: absolute;
-    width: 100%;
+    display: none;
 
   }
   .cover{
-    position: absolute;
-    width: 100%;
-    top: 60rem;
-    left: 0rem;
+    display: none;
   }
   .kurta{
-    position: absolute;
-    width: 100%;
-    top:68rem;
-    bottom: 0rem;
-    left: 0rem;
+    display: none;
   }
   .anarkali{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 90rem;
-    bottom: 0rem;
-    left: 0rem;
+    display: none;
   }
   .lehenga{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 135rem;
-    left: 0em;
+    display: none;
   }
   .necklace_sets{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 180rem;
-    bottom: 0em;
-    left: 0em;;
+    display: none;
   }
   .kidswear{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 188rem;
-    bottom: 0em;
-    left: 0em;
+    display: none;
   }
   .menswear{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top:200rem;
-    bottom: 0em;
-    left: 0em;
-    margin-bottom: -20rem;
-
+    display: none;
   }
   .earrings{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top:246rem;
-    bottom: 0em;
-    left: 0em;
+    display: none;
   }
   .home_decor{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top:255rem;
-    bottom: 0em;
-    left: 0em;
+    display: none;
  }
  .bags{
-   position: absolute;
-   width: 100%; 
-   height: auto;
-   bottom: 0em;
-   left: 0em;
-   top: 278rem;
+  display: none;
  }
  .roots_of_india{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  bottom: 0em;
-  top:290rem;
-  left: 0em;
+  display: none;
 }
 .footwear{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  bottom: 0em;
-  left: 0em;
-  top:310rem;
+  display: none;
 }
 .types #first a{
     margin-bottom: 5rem;
@@ -465,7 +488,7 @@ width: 90%;
 .search-container button{
   position: relative;
   width: 10%;
-  left: 15rem;
+  left: 16rem;
   bottom:3.8rem;
 }
 .subscribe-container input{
