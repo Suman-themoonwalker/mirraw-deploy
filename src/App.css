@@ -33,7 +33,7 @@ body{
    text-decoration: none;
  }
 .nav-header ul li a:hover{
-  background: white;
+  background: snow;
   transition: .5s;
 }
 .checkbtn{
@@ -116,8 +116,9 @@ hr {
 .card-block a:link{
   text-decoration: none;
 }
-.card-block a{
-  color: black
+.card-footer{
+  color: black;
+  background: greenyellow;
 }
 .card-footer:hover{
   background-color: red;
@@ -264,14 +265,61 @@ a{
 border-style: groove;
 width: 90%;
 }
+.page-footer{
+  background-color: #8B0000;
+}
 .page-footer a{
   color: snow;
+  font-size: small;
 }
 .page-footer a:link{
   text-decoration: none;
 }
+.page-footer #help{
+  position: relative;
+  right: 2rem;
+}
+.page-footer #company{
+  position: relative;
+  right: 1rem;
+}
+.page-footer #business{
+  position: relative;;
+  right: 1rem;
+}
+.page-footer #social{
+  position: relative;
+  right:1rem;
+}
+.page-footer h6{
+  color:#f0f0f0;
+}
+.footer-copyright{
+  background-color: #8B0000;
+}
+.footer-copyright p{
+  color: #f0f0f0;
+  text-align: center;
+}
+.page-footer #dna{
+  width: 5rem;
+  height: 3rem;
+}
+.page-footer #story{
+  position: relative;
+  right: 1rem;
+}
+.page-footer #paypal{
+  position: relative;
+  right: 1rem;
+}
+.page-footer #sponsors{
+  position: relative;
+  top:1rem;
+  left: 1rem;
+}
 /* For mobile phones: */
-@media (max-width: 767px){
+@media (max-width: 858px){
 
   .stationary-zoomer{
     display: inline-block;
@@ -410,9 +458,9 @@ width: 90%;
 }
 .search-container input{
   position: relative;
-  width: 100%;
+  width: 90%;
   margin-right:7rem;
-  right: 2rem;
+  right: 0rem;
 }
 .search-container button{
   position: relative;
@@ -423,6 +471,27 @@ width: 90%;
 .subscribe-container input{
   margin-left: -3rem;
   width: 100%;
+}
+.page-footer a{
+  font-size: small;
+}
+.page-footer #help{
+  position: relative;
+  left: 1rem;
+}
+.page-footer #company{
+  position: relative;
+  left: 1rem;
+}
+.page-footer #business{
+  position: relative;;
+  left: 1rem;
+}
+.footer-copyright{
+  position: relative;
+  left: 1rem;
+  width: 90%;
+  font-size: small;
 }
 
 }

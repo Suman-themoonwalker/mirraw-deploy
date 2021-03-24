@@ -4,8 +4,8 @@ function App() {
   return (
     <div>
       <div class="nav-header">
-      <nav>
-        <input type="checkbox" id="check"/>
+        <nav>
+        <input type="checkbox" id="check"  />
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
@@ -19,6 +19,10 @@ function App() {
           <li class="right-side"><a href=""><i class="fas fa-user-tie"></i><b> LOG IN</b>&nbsp;&nbsp;</a><a href="">&nbsp;&nbsp;<i class="fas fa-shopping-bag"></i> <b>&nbsp;CART(0)</b>&nbsp;&nbsp;</a></li>
         </ul>
         </nav>
+
+
+
+
         <hr/>
         <label class="logo"><a href="#"><img src="data:image/png;base64,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"/></a></label>
         <div class="search-container">
@@ -629,7 +633,7 @@ function App() {
           <div class="card">
             <div class="card-block">
               <a href="#"><img src="https://assets0.mirraw.com/frontpages/9222/Christmast_%28layout_down%29-01_main.jpg?1608803378"/></a>
-              <a href="#"><div class="card-footer">Banarasi Silk</div></a>
+              <a href="#"><div class="card-footer"><div class="box">Banarasi Silk</div></div></a>
             </div>
           </div>
         </div>
@@ -1010,13 +1014,13 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
 
 
 
-<footer class="page-footer bg-dark">
+<footer class="page-footer">
 
     <div class="container text-center text-md-left mt-5">
         <div class="row">
           
-          <div class="col-md-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">Help</h6>
+          <div class="col-md-2 col-sm-12 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold" id="help">Help</h6>
             <ul class="help list-unstyled">
               <li class="my-2 color:light"><a href="#">Survey</a></li>
               <li class="my-2"><a href="#">How To Buy</a></li>
@@ -1029,8 +1033,8 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
             </ul>
           </div>
 
-          <div class="col-md-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">Company</h6>
+          <div class="col-md-2 col-sm-12 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold" id="company">Company</h6>
             <ul class="list-unstyled">
               <li class="my-2"><a href="#">About Us</a></li>
               <li class="my-2"><a href="#">Contact Us</a></li>
@@ -1041,8 +1045,8 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
             </ul>
           </div>
 
-          <div class="col-md-2 mx-4 mb-4">
-            <h6 class="text-uppercase font-weight-bold">Business</h6>
+          <div class="col-md-2 col-sm-12 mx-4 mb-4">
+            <h6 class="text-uppercase font-weight-bold" id="business">Business</h6>
             <ul class="list-unstyled ">
               <li class="my-2"><a href="#">International Buyers</a></li>
               <li class="my-2"><a href="#">Sell On Mirraw</a></li>
@@ -1050,13 +1054,13 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
             </ul>
           </div>
 
-          <div class="col-md-2 mx-auto mb-4">
+          <div class="col-md-2 col-sm-12 mx-auto mb-4">
             <h6 class="text-uppercase font-weight-bold">Coupon Partners</h6>
             <ul class="list-unstyled">
               <li class="my-2"><a href="#">Mirraw Coupons</a></li>
               <li class="my-2"><a href="#">Mirraw Offers</a></li>
             </ul>
-            <h6 class="text-uppercase font-weight-bold">Social</h6>
+            <h6 class="text-uppercase font-weight-bold" id="social">Social</h6>
             <ul class="list-unstyled">
               <li>
                 <a href="#"><i class="fab fa-twitter-square"></i></a>    
@@ -1068,10 +1072,23 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
               </li>
             </ul>
           </div>
+
+          <div class="col-md-2 col-sm-12 mx-4 mb-4">
+            <h6 class="text-uppercase font-weight-bold">Press</h6>
+            <div class="row" id="sponsors">
+              <div class="col" id="dna"><a href="#"><img src="https://www.mirraw.com/assets/dna-be0b711232e819d1dfeb542296bf4d56c80cd17c41badb9494300cffe4fe9cf5.png"/></a></div>
+              <div class="col" id="story"><a href="#"><img src="https://www.mirraw.com/assets/yourstory-af15b2ddcc71a01016c6b879d665af554375ace702d94eaa48d0b2210834e0d4.png"/></a></div>
+            </div>
+            <div class="row" id="sponsors">
+              <div class="col" id="payu"><a href="#"><img src="https://www.mirraw.com/assets/payu-a31ef1db3817ade015c5ad386da4b2211b82dbebcad90964c58e4b7dc889b255.png"/></a></div>
+              <div class="col" id="paypal"><a href="#"><img src="https://www.mirraw.com/assets/paypal-449cce1c328ad3e821e482a3795a336b4659a62c892eddb7f5dd095eb5d42a16.png"/></a></div>
+            </div>
+          </div>
+
         </div>
     </div>
 
-    <div class="footer-copyright text-center py-3">
+    <div class="footer-copyright text-center py-2">
       <p>Copyright&copy;2021, Mirraw Online Services Pvt. Ltd. All Rights Reserved.</p>
     </div>
 </footer>
