@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mirraw-deploy/static/css/main.451382e3.chunk.css",
-    "main.js": "/mirraw-deploy/static/js/main.7458ff3e.chunk.js",
-    "main.js.map": "/mirraw-deploy/static/js/main.7458ff3e.chunk.js.map",
-    "runtime-main.js": "/mirraw-deploy/static/js/runtime-main.759ca64a.js",
-    "runtime-main.js.map": "/mirraw-deploy/static/js/runtime-main.759ca64a.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/mirraw-deploy/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.c3284732.chunk.js": "/mirraw-deploy/static/js/2.c3284732.chunk.js",
-    "static/js/2.c3284732.chunk.js.map": "/mirraw-deploy/static/js/2.c3284732.chunk.js.map",
-    "static/js/3.a0fc87cf.chunk.js": "/mirraw-deploy/static/js/3.a0fc87cf.chunk.js",
-    "static/js/3.a0fc87cf.chunk.js.map": "/mirraw-deploy/static/js/3.a0fc87cf.chunk.js.map",
-    "index.html": "/mirraw-deploy/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/mirraw-deploy/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.451382e3.chunk.css.map": "/mirraw-deploy/static/css/main.451382e3.chunk.css.map",
-    "static/js/2.c3284732.chunk.js.LICENSE.txt": "/mirraw-deploy/static/js/2.c3284732.chunk.js.LICENSE.txt"
+    "main.css": "/mirraw-deploy2/static/css/main.a567305f.chunk.css",
+    "main.js": "/mirraw-deploy2/static/js/main.149a7e2d.chunk.js",
+    "main.js.map": "/mirraw-deploy2/static/js/main.149a7e2d.chunk.js.map",
+    "runtime-main.js": "/mirraw-deploy2/static/js/runtime-main.1b71a750.js",
+    "runtime-main.js.map": "/mirraw-deploy2/static/js/runtime-main.1b71a750.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/mirraw-deploy2/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c3284732.chunk.js": "/mirraw-deploy2/static/js/2.c3284732.chunk.js",
+    "static/js/2.c3284732.chunk.js.map": "/mirraw-deploy2/static/js/2.c3284732.chunk.js.map",
+    "static/js/3.a0fc87cf.chunk.js": "/mirraw-deploy2/static/js/3.a0fc87cf.chunk.js",
+    "static/js/3.a0fc87cf.chunk.js.map": "/mirraw-deploy2/static/js/3.a0fc87cf.chunk.js.map",
+    "index.html": "/mirraw-deploy2/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/mirraw-deploy2/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.a567305f.chunk.css.map": "/mirraw-deploy2/static/css/main.a567305f.chunk.css.map",
+    "static/js/2.c3284732.chunk.js.LICENSE.txt": "/mirraw-deploy2/static/js/2.c3284732.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.759ca64a.js",
+    "static/js/runtime-main.1b71a750.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c3284732.chunk.js",
-    "static/css/main.451382e3.chunk.css",
-    "static/js/main.7458ff3e.chunk.js"
+    "static/css/main.a567305f.chunk.css",
+    "static/js/main.149a7e2d.chunk.js"
   ]
 }
