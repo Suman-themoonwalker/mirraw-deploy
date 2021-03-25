@@ -1084,14 +1084,18 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
   </ol>
   <div class="carousel-inner" id="testimony">
     <div class="one carousel-item active">
+    <div class="start"><i class="fas fa-quote-left"></i></div>
     <div><p>Mirraw was superfast. I ordered on 26th Dec and today (28th Dec) I got the product. I Ordered Victorian Double Tokri Kashmiri Earring. The design and specially the color of the stones was perfectly the same. Moreover, It looks amazingly beautiful with my Royal Blue and Pink Benarasi Saree. Very happy with the service. Keep it up Mirraw ! All the Best ! -</p>
       <h5>Suranjeeta Das, New Delhi </h5>
     </div>
+    <div class="end"><i class="fas fa-quote-right"></i></div>
     </div>
     <div class="two carousel-item">
+    <div class="start"><i class="fas fa-quote-left"></i></div>
     <div><p>I'd like to take this opportunity to let you know that I am very happy with your customer service. I had an issue with a damaged piece and it was dealt with efficiently. I received the temple set and others in my order and I am extremely happy with your professionalism. All items were very well made and worth the money. Keep up the good work. - </p>
       <h5>Anjana Das, Tennessee, USA </h5>
     </div>
+    <div class="end"><i class="fas fa-quote-right"></i></div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

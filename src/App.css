@@ -165,18 +165,29 @@ h4,h6{
 }
 #testimony{
   position: relative;
-  left:2rem;
+  left:4rem;
+}
+.start{
+  position: relative;
+  color: #8B0000;
+}
+.end{
+  position: relative;
+  left:95%;
+  color: #8B0000;
 }
 .one{
   border-style: groove;
   width: 90%;
-  font-size: smaller;
+  font-size: small;
+  line-height: 1.5rem;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .two{
 border-style: groove;
 width: 90%;
-font-size: smaller;
+font-size: small;
+line-height: 1.5rem;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .subscribe-container{
