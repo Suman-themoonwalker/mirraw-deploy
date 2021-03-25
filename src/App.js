@@ -724,7 +724,7 @@ function App() {
         <div class="col-md-3 col-sm-12">
           <div class="card">
             <div class="card-block">
-              <a href="#"><img src="https://assets0.mirraw.com/frontpages/9222/Christmast_%28layout_down%29-01_main.jpg?1608803378"/></a>
+              <a href="#"><img id="Banarasi" src="https://assets0.mirraw.com/frontpages/9222/Christmast_%28layout_down%29-01_main.jpg?1608803378"/></a>
               <a href="#"><div class="card-footer"><div class="box">Banarasi Silk</div></div></a>
             </div>
           </div>
@@ -951,7 +951,7 @@ function App() {
 
 <section>
 <h3>RECOMMENDED FOR YOU</h3>
-  <div class="zoom container">
+  <div class="zoom-container">
     <div class="row">
       <div class="col-md-12">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
@@ -1077,20 +1077,20 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
 </section>
     
 <section>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
   </ol>
   <div class="carousel-inner">
     <div class="one carousel-item active">
-    <div><p>Mirraw was superfast. I ordered on 26th Dec and today (28th Dec) I got the product. I also got a call yesterday by the Gharpay executive before coming for the pick up, as committed by Team Mirraw. I Ordered Victorian Double Tokri Kashmiri Earring. The design and specially the color of the stones which I was specific to be the same as mentioned in the website was perfectly the same. Moreover, It looks amazingly beautiful with my Royal Blue and Pink Benarasi Saree. Very happy with the service. Keep it up Mirraw ! All the Best ! -</p>
+    <div><p>Mirraw was superfast. I ordered on 26th Dec and today (28th Dec) I got the product. I Ordered Victorian Double Tokri Kashmiri Earring. The design and specially the color of the stones was perfectly the same. Moreover, It looks amazingly beautiful with my Royal Blue and Pink Benarasi Saree. Very happy with the service. Keep it up Mirraw ! All the Best ! -</p>
       <h5>Suranjeeta Das, New Delhi </h5>
     </div>
     </div>
     <div class="two carousel-item">
     <div><p>I'd like to take this opportunity to let you know that I am very happy with your customer service. I had an issue with a damaged piece and it was dealt with efficiently. I received the temple set and others in my order and I am extremely happy with your professionalism. All items were very well made and worth the money. Keep up the good work. - </p>
-      <h5>Anjana Das, Tennessee, United States </h5>
+      <h5>Anjana Das, Tennessee, USA </h5>
     </div>
     </div>
   </div>
@@ -1114,7 +1114,7 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
           
           <div class="col-md-2 col-sm-12 mx-auto mb-4">
             <h6 class="text-uppercase font-weight-bold" id="help">Help</h6>
-            <ul class="help list-unstyled">
+            <ul class="help list-unstyled" id="ul_help">
               <li class="my-2 color:light"><a href="#">Survey</a></li>
               <li class="my-2"><a href="#">How To Buy</a></li>
               <li class="my-2"><a href="#">Track Order</a></li>
@@ -1128,7 +1128,7 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
 
           <div class="col-md-2 col-sm-12 mx-auto mb-4">
             <h6 class="text-uppercase font-weight-bold" id="company">Company</h6>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled" id="ul_company">
               <li class="my-2"><a href="#">About Us</a></li>
               <li class="my-2"><a href="#">Contact Us</a></li>
               <li class="my-2"><a href="#">Careers</a></li>
@@ -1140,7 +1140,7 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
 
           <div class="col-md-2 col-sm-12 mx-4 mb-4">
             <h6 class="text-uppercase font-weight-bold" id="business">Business</h6>
-            <ul class="list-unstyled ">
+            <ul class="list-unstyled" id="ul_business">
               <li class="my-2"><a href="#">International Buyers</a></li>
               <li class="my-2"><a href="#">Sell On Mirraw</a></li>
               <li class="my-2"><a href="#">Designer Login</a></li>
