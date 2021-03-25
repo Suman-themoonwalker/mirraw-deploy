@@ -927,7 +927,7 @@ function App() {
 
 <section>
   <hr/>
-  <h3>BESTSELLER PRODUCTS</h3>
+  <h3>BESTSELLER PRODUCT</h3>
   <div class="stationary-zoomer">
   <div class="card"><div class="card-block">
   <div class="zoom"><a href='#'><img src="https://assets0.mirraw.com/images/8756888/IMG_4816_small.jpg?1614442070"/></a></div>
