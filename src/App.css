@@ -156,9 +156,20 @@ h4,h6{
   border-style: groove;
   width: 90%;
   margin-left:5%;
+  font-family: 'Times New Roman', Times, serif;
 }
 .history a{
   color:#8B0000;
+}
+.one{
+  border-style: groove;
+  width: 90%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.two{
+border-style: groove;
+width: 90%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .subscribe-container{
   margin-left: 28%;
@@ -306,14 +317,6 @@ a{
 .logo{
   margin-left: 4%;
 }
-.one{
-  border-style: groove;
-  width: 90%;
-}
-.two{
-border-style: groove;
-width: 90%;
-}
 .page-footer{
   background-color: #8B0000;
 }
@@ -408,8 +411,14 @@ width: 90%;
 
 
   .stationary-zoomer{
-    display: inline-block;
+    display: block;
   }
+  .stationary-zoomer .card-block{
+    position: relative;
+    left: 1rem;
+    margin:1rem;
+  }
+
   .checkbtn{
     display: block;
   }
@@ -546,15 +555,19 @@ width: 90%;
 }
 .page-footer #help{
   position: relative;
-  left: 1rem;
+  left: .5rem;
 }
 .page-footer #company{
   position: relative;
-  left: 1rem;
+  left: .5rem;
 }
 .page-footer #business{
   position: relative;;
-  left: 1rem;
+  left: .5rem;
+}
+.page-footer #social{
+  position: relative;
+  left: 0.5rem;
 }
 .footer-copyright{
   position: relative;
