@@ -73,6 +73,8 @@ body{
   display: none;
   position: absolute;
   background-color: #f0f0f0;
+  box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
   margin-left: 186px;
   margin-top: -26px;
 }
@@ -84,7 +86,7 @@ body{
   display: block;transition: all o.5s ease-in-out;
 }
 .dropdown .dropdown-menu a:hover{background-color: #c9c7c7;}
-#sub-dropdown:hover #sub-dropdown-menu{display:block;}
+#sub-dropdown:hover #sub-dropdown-menu{display:block;transition: all o.5s ease-in-out;}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -160,6 +162,10 @@ h4,h6{
 }
 .history a{
   color:purple;
+}
+#testimony{
+  position: relative;
+  left:2rem;
 }
 .one{
   border-style: groove;
@@ -554,6 +560,10 @@ a{
 .subscribe-container input{
   margin-left: -3rem;
   width: 100%;
+}
+#testimony{
+  position: relative;
+  left: 0rem;
 }
 .page-footer a{
   font-size: small;

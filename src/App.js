@@ -73,7 +73,7 @@ function App() {
           </ul>
         </li>
         <li id="sub-dropdown" class="dropdown"><a href="#">FABRIC<span class="glyphicon glyphicon-chevron-right"></span></a>
-          <ul id="sub-dropdown-menu" class="dropdown-menuz">
+          <ul id="sub-dropdown-menu" class="dropdown-menu">
             <li><a href="#">Georgette</a></li>
             <li><a href="#">Art Silk</a></li>
             <li><a href="#">Cotton</a></li>
@@ -1082,7 +1082,7 @@ Change in fashion trends has bought in various types of <a href="#"><strong>salw
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner" id="testimony">
     <div class="one carousel-item active">
     <div><p>Mirraw was superfast. I ordered on 26th Dec and today (28th Dec) I got the product. I Ordered Victorian Double Tokri Kashmiri Earring. The design and specially the color of the stones was perfectly the same. Moreover, It looks amazingly beautiful with my Royal Blue and Pink Benarasi Saree. Very happy with the service. Keep it up Mirraw ! All the Best ! -</p>
       <h5>Suranjeeta Das, New Delhi </h5>
