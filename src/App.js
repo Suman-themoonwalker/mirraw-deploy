@@ -17,16 +17,22 @@ function App() {
         </nav>
 
     <div class="toggler">
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid" >
+    <ul class="nav navbar-nav mx-auto">
     <li id="course" class="dropdown"><i class="fas fa-bars"></i><span class="caret"></span>
       <ul class="dropdown-menu">
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">7 Day Returns</a></li>
-        <li><a href="#">tra</a></li>
-        <li><a href="#">Baranasi Silk</a></li>
-        <li><a href="#">Baranasi Silk</a></li>
-        <li><a href="#">Baranasi Silk</a></li>
+        <li><a href="#">Track Order</a></li>
+        <li><a href="#">Return Order</a></li>
+        <li><a href="#">Sell On Mirraw</a></li>
+        <li><a href="#">Survey</a></li>
       </ul>
     </li>
+    </ul>
+    </div>
+    </nav>
     </div>
 
         <hr/>
@@ -37,7 +43,6 @@ function App() {
               <button type="submit" ><i class="fa fa-search"></i></button>
             </form>
           </div>
-        <hr/>      
       </div>
 
 
