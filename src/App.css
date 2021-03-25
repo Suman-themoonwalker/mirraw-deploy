@@ -390,7 +390,7 @@ a{
   left: 1rem;
 }
 /* For mobile phones: */
-@media (max-width: 858px){
+@media (max-width: 995px){
 .toggler{
   display:block;
   position: relative;
@@ -575,6 +575,14 @@ a{
 #testimony{
   position: relative;
   left: 0rem;
+}
+.one{
+  position: relative;
+  left: 1rem;
+}
+.two{
+  position: relative;
+  left: 1rem;
 }
 .page-footer a{
   font-size: small;

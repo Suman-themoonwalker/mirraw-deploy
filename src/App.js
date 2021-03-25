@@ -470,7 +470,7 @@ function App() {
     </li> 
 
 
-    <li id="course" class="dropdown"><a href="">LUXE<span class="caret"></span></a>
+    <li id="course" class="dropdown"><a href="">Luxe<span class="caret"></span></a>
     <ul class="dropdown-menu">
         <li id="sub-dropdown" class="dropdown"><a href="#">WOMENSWEAR<span class="glyphicon glyphicon-chevron-right"></span></a>
           <ul id="sub-dropdown-menu" class="dropdown-menu">
@@ -500,7 +500,7 @@ function App() {
     </li> 
 
 
-    <li id="course" class="dropdown"><a href="">CELEBRITIES<span class="caret"></span></a>
+    <li id="course" class="dropdown"><a href="">Celebrities<span class="caret"></span></a>
     <ul class="dropdown-menu">
         <li id="sub-dropdown" class="dropdown"><a href="#">WOMENSWEAR<span class="glyphicon glyphicon-chevron-right"></span></a>
           <ul id="sub-dropdown-menu" class="dropdown-menu">
@@ -512,7 +512,7 @@ function App() {
     </li> 
 
 
-    <li id="course" class="dropdown"><a href="">COLLECTIONS<span class="caret"></span></a>
+    <li id="course" class="dropdown"><a href="">Collections<span class="caret"></span></a>
     <ul class="dropdown-menu">
         <li id="sub-dropdown" class="dropdown"><a href="#">ROOTS<span class="glyphicon glyphicon-chevron-right"></span></a>
           <ul id="sub-dropdown-menu" class="dropdown-menu">
@@ -590,10 +590,10 @@ function App() {
     </div>
   </nav>
 
-      </section>
+  </section>
 
-      <section>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+  <section>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="https://assets0.mirraw.com/banner_sliders/7978/Exclusive-saree-collection-%28destop%29_main_webp.webp?1613466325" alt="First slide" />
