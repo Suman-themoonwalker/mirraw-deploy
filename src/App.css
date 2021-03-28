@@ -333,14 +333,6 @@ a{
   position: absolute;
   top: 160rem;
 }
-.best-sell{
-  position: relative;
-  left: 30%;
-  border-left:0.1rem solid black;
-}
-.recommend{
-  border-left:0.1rem solid black;
-}
 
 .logo{
   margin-left: 4%;
