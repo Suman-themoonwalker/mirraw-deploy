@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 export class Head extends Component{
     render(){
         return(
-            <div className="nav-header">
+<div className="nav-header">
         <nav>
         <ul>
           <li><a href="#">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
@@ -43,6 +43,7 @@ export class Head extends Component{
             </form>
           </div>
       </div>
-        );
+           
+       );
     }
 }
